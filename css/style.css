@@ -63,6 +63,91 @@ header .myLog{
 }
 /* end of header */
 
+/* main */
+/* slider one */
+.site-slider{
+    position: relative;
+
+}
+.position-top{
+    position: absolute;
+    top: 50%;
+}
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    color: white;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity: 1;
+}
+.right-0{
+    right: 0;
+}
+/* slick-dots */
+.slick-dots{
+    position: absolute;
+    bottom: 1rem;
+    font-weight: bolder;
+}
+
+.slick-dots li button:before{
+    font-size: 10px;
+    color: #45ccb8;
+}
+.slick-dots li.slick-active button:before {
+    color: var(--primary-color);
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,.205);
+    transform: scale(2);
+
+}
+/* slider tow product */
+.site-slider-two {
+    position: relative;
+    height: 30%;
+    
+
+}
+/* .site-slider-tow .slider-btn .position-top{
+    top: 40%;
+} */
+.products{
+    height: 15rem;
+    position: relative;
+    overflow: hidden;
+   
+
+}
+.products img {
+   width: 95%;
+   height: 75%;
+   margin: auto;
+}
+.site-btn.btn-span{
+    padding: .8rem 1.9rem;
+    border-radius: 4rem;
+    border: 1px solid var(--border);
+    background-color: white;
+    color: gray;
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,.205);
+
+}
+.site-slider-two .products span{
+    transition: all 1s ease;
+}
+.site-slider-two .products:hover span{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* end of main */
+
 
 
 

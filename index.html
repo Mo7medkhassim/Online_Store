@@ -10,6 +10,10 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- font awsome -->
     <link rel="stylesheet" href="css/all.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
     <!-- custome style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -70,10 +74,10 @@
                         </ul>
                     </div>
                     <ul class="navbar-nav nav-icon text-right">
-                        <li class="navbar-item border rounded-circle mx-2
+                        <li class="navbar-item border  p-1 rounded-circle mx-2
                      saerch-icon"><i class="fas fa-search"></i>
                         </li>
-                        <li class="navbar-item border rounded-circle mx-2
+                        <li class="navbar-item border p-1 rounded-circle mx-2
                      cart-icon"><i class="fab fa-opencart"></i>
                         </li>
                     </ul>
@@ -87,6 +91,89 @@
     <!-- end of header -->
 
     <!-- main -->
+
+    <!-- slider one -->
+    <div class="container-fluid p-0">
+        <div class="site-slider">
+            <div class="slider-one">
+                <div class="">
+                    <img src="img/product-1.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="">
+                    <img src="img/product-2.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="">
+                    <img src="img/product-3.jpeg" class="img-fluid" alt="">
+                </div>
+
+            </div>
+            <div class="slider-btn">
+                <span class="prev position-top">
+                    <i class="fas fa-chevron-left"></i>
+                </span>
+                <span class="next position-top right-0">
+                    <i class="fas fa-chevron-right"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- slider tow -->
+    <div class="container-fluid">
+        <div class="site-slider-two px-md-4">
+           <div class="row slider-two" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}' >
+               <div class="col-md-3  pt-md-5 py-5 ">
+                  <div class=" products text-center">
+                    <img src="img/product-2.jpeg" alt="product1">
+                    <span class="border site-btn btn-span">SOFA</span>
+                  
+                </div>
+                  
+               </div>
+               <div class="col-md-3  pt-md-5 py-5">
+                  <div class=" products text-center">
+                    <img src="img/product-2.jpeg" alt="product1">
+                    <span class="border site-btn btn-span">SOFA</span>
+                  
+                </div>
+                  
+               </div>
+               <div class="col-md-3  pt-md-5 py-5">
+                  <div class=" products  text-center">
+                    <img src="img/product-2.jpeg" alt="product1">
+                    <span class="border site-btn btn-span">SOFA</span>
+                  
+                </div>
+                  
+               </div>
+               <div class="col-md-3  pt-md-5 py-5">
+                <div class=" products  text-center">
+                  <img src="img/product-2.jpeg" alt="product1">
+                  <span class="border site-btn btn-span">SOFA</span>
+                
+              </div>
+                
+             </div>
+             <div class="col-md-3  pt-md-5 py-5">
+                <div class=" products  text-center">
+                  <img src="img/product-2.jpeg" alt="product1">
+                  <span class="border site-btn btn-span">SOFA</span>
+                
+              </div>
+                
+             </div>
+              
+           </div>
+           <div class="slider-btn">
+            <span class="prev position-top">
+                <i class="fas fa-chevron-left"></i>
+            </span>
+            <span class="next position-top right-0">
+                <i class="fas fa-chevron-right"></i>
+            </span>
+        </div> 
+        </div>
+    </div>
     <!-- end of main -->
 
     <!-- footer -->
@@ -104,6 +191,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <!-- slick slider -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
