@@ -15,6 +15,8 @@ $('.slider-one')
 $('.slider-two').slick({
     autoplay: true,
     autoplaySpeed: 3000,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     // slidesToScroll:1,
     // infinite: true,
     responsive: [
@@ -44,6 +46,8 @@ $('.slider-two').slick({
         // You can unslick at a given breakpoint now by adding:
         // settings: "unslick"
         // instead of a settings object
-      ]
+      ],
+      prevArrow: '.site-slider-two .slider-btn .prev',
+      nextArrow: '.site-slider-two .slider-btn .next'
 });
 });
